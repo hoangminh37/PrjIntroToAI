@@ -6,7 +6,6 @@ from tkinter import filedialog
 from tkinter import *
 import cv2
 
-# Nếu cần load chuẩn hơn
 model = tf.keras.models.load_model('final_model_full_data.h5')
 
 class_labels = {
